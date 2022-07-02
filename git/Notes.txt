@@ -95,6 +95,22 @@ git rm -r klosör_adı/
 git commit -m ""
 
 tek farkı elle silmeden direkt konsoldan silme
+-------------------------------------------
+
+dosya isimlendirme ve taşıma
+
+elle dosyanın ismini değiştirdikten sonra
+
+değişmiş ismi ve değişen ismi geçiş bölgesine aktarmalıyız
+
+git status ile gördükten sonra tek tek git add yapabiliriz yada kısaca
+
+git add .
+
+yapabiliriz
+sonra tekrar commit yapacağız
+
+
 
 
 
