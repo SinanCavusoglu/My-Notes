@@ -1,0 +1,18 @@
+Önce kullanıcı adı ve e mail imizi girmemiz gerekiyor
+
+git config --global user.name "Sinan Çavuşoğlu"
+git config --global user.email "sinancavusoglu9@gmail.com"g
+
+Bunu bir kere yaptıktan sonra bir daha yapmamıza gerek yok
+kontrol etmek için sadece
+git config --global user.name yazarsan kullanıcı adını verir 
+git config --global user.email yazarsan mail adresini döner
+
+Bazı önemli terminal komutları
+
+pwd  mevcut dizini döner
+ls   bulunduğumuz dizin üzerinde ki dosyaları listeler
+cd   change directory
+
+cd  change directory
+
