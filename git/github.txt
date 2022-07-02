@@ -1,0 +1,8 @@
+git remote add githubRepo github_adressi
+
+
+githubRepo yerine istediğini yazabilirsin
+
+git remote yazarsan ismini gösterir
+
+git push -u githubRepo master
