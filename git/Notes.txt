@@ -39,4 +39,62 @@ versiyonları gösterir
 git status
 projelerdeki değişiklikleri gösterir
 
+değişiklikleri git add le ekleyip 
+commit etmemiz gerekiyor
+-------------------------------------
+
+Peki neden önce geçiş bölgesine sonrada git deposuna(projesine atıyor)
+add ile geçiş bölgesi commit ile depoya atıyoruz
+-------------------------------------
+dosyaları değiştirme
+bir belgenin içini değiştirirsen mesela .pt dosyası
+
+git diff 
+
+ile onu görebilirsin
+ama tekrar git add ve git commit -m adımlarını yapman gerekir
+
+git diff --staged
+
+ise geçiş bölgesi ile depo arasında ki farkı gösterir
+--------------------------------------------------
+Dosyaları silme
+eğer el ile silersen (sağ click sil)
+sildikten sonra
+
+git.status
+
+yaparsan silik dosyayı görürsün 
+
+geçiş bölgesine taşımak için
+
+git add file_name
+yada
+git rm file_name
+
+sonra tekrar git commit -m "" yaparak değişikliği kayıt ediyoruzz
+
+konsoldan yani bashten silmek için
+git rm file_name
+
+yaptıktan sonra yine
+git commit -m "" yapmamız lazım
+
+
+klosör silmek için
+
+birinci yöntem elle sildiikten sonra
+
+git rm -r klosör_adı/
+
+sonra 
+git commit -m ""
+
+diğer yöntem konsoldan
+git rm -r klosör_adı/
+git commit -m ""
+
+tek farkı elle silmeden direkt konsoldan silme
+
+
 
