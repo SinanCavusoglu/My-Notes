@@ -132,6 +132,16 @@ git mv dosya_adı directory/
 git commit
 bu zor elle yap daha kolay
 
+--------------------------------
+
+değişiklikleri geri alma
+
+git status dediğiniz anda artık anlıyoruz
+
+git restore file isimi
+hepsini yazmak için 
+git restore .
+
 
 
 
