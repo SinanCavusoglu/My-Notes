@@ -110,6 +110,28 @@ git add .
 yapabiliriz
 sonra tekrar commit yapacağız
 
+konsoldan yapmak için 
+
+git mv dosyaeski_ad dosyayeni_ad
+
+-----------------------------------------
+dosya yerine değiştirmek için
+
+
+
+elle değişiklikten sonra
+
+git status ile değişikliği görüp
+git add . ile ekleyip
+git commit yapabiliriz
+
+consoldan taşımak için
+
+git mv dosya_adı directory/
+
+git commit
+bu zor elle yap daha kolay
+
 
 
 
