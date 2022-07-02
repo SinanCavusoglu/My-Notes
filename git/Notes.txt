@@ -7,12 +7,36 @@ Bunu bir kere yaptıktan sonra bir daha yapmamıza gerek yok
 kontrol etmek için sadece
 git config --global user.name yazarsan kullanıcı adını verir 
 git config --global user.email yazarsan mail adresini döner
-
+-----------------------------------------------------------
 Bazı önemli terminal komutları
 
 pwd  mevcut dizini döner
 ls   bulunduğumuz dizin üzerinde ki dosyaları listeler
+ls -a gizli dosyaları gösterir
 cd   change directory
 
 cd  change directory
+-----------------------------------------------------------
+
+Proje Oluşturma
+
+git init
+-----------------------------------
+Git deposuna projeleri eklemek
+
+git add .    (ekle . olursa hepsini ekle)
+
+bunu yaparsan eğer geçiş bölgesine eklemiş olursun
+
+git commit -m "mesaj yazmak istediğini yaz"
+
+asıl commmit projeleri ekler
+
+
+git log
+versiyonları gösterir
+-------------------------------------
+git status
+projelerdeki değişiklikleri gösterir
+
 
