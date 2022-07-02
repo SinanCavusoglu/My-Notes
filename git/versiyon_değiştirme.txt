@@ -1,0 +1,10 @@
+
+git log ile bakıp
+
+geçmek istediğimiz versiyona bakıyoruz
+uzun bir kod var onu kopyalamamız lazım
+
+git checkout kod -- .
+
+yaparak geri döneriz
+
