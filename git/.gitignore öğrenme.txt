@@ -1,0 +1,11 @@
+git status ile incele
+
+.gitignore adında dosya oluşturacaz
+
+cat >> .gitignore 
+
+sonra boşluk yazacak dosyanın adını yazıyoruz sınra 
+
+ctrl c yapıyoruz
+
+cat .gitignore dersen içindekileri yazar
